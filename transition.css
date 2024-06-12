@@ -4,22 +4,34 @@
     box-sizing: border-box;
 }
 #FirstBox{
+    height: 300px;
+    width:300px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+#FirstBox:hover{
     border: solid purple;
     background-color: plum;
     height:300px;
     width:300px;
-    transform: translateX(200px);
+    border-radius: 150px;
+    transition-duration: 5s;
+    transform: rotate(360deg);
+    transform: translateX(100px);
+
+    /* transform: translateX(200px);
     transform: translateY(200px);
-    transform: translate(200px,200px);
-    transform: scaleX(1);
+    transform: translate(200px,200px); */
+    /* transform: scaleX(1);
     transform: scaleY(1.5);
     transform: scale(1.5);
     margin:    100px auto;
     transform: skew(0deg);
     transform: skewY(0deg);
     transform: skew(324deg,30deg);
-    transform:rotate(0deg);
+    transform:rotate(0deg); */
     background-image: url(ayush.png);
     background-size: contain;
     background-repeat: no-repeat;
+
 }
